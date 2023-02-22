@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>DOOR ON/OFF</h1>
+
+
+    <Button onclick="dooroff()">on</Button>
+
+    <img src="./door img.jpg" id="doorimg" height="550px" alt="">
+
+    <button  onclick="dooron()">off</button>
+
+    <script>
+
+        function dooron(){
+
+            document.getElementById('doorimg').src = "door img.jpg"
+
+
+        }
+
+        function dooroff(){
+
+            document.getElementById('doorimg').src = "days-everyday.gif"
+
+        }
+    </script>
+
+</body>
+
+</html>

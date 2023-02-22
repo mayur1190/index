@@ -1,0 +1,26 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+    margin-top: 5vh;
+    text-align: center;
+    background-image: linear-gradient(to right,);
+    font-family: 'josefin sans', sans-serif;
+    
+}
+.button{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 5rem;
+    background-image: linear-gradient();
+    color: black;
+}
+#doorimg{
+    border-radius: 2rem;
+
+
+    margin-top: 5vh;
+    
+}
